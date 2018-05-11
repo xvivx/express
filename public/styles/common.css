@@ -1,0 +1,30 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.clear-fix {
+    overflow: hidden;
+}
+.clear-fix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: lighter;
+}
